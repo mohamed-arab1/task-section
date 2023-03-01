@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #01112D;
+}
+
+.container .head-text {
+    margin: 0 auto;
+    color: white;
+    width: 70%;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.container .head-text h2 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.container .head-text h4{
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.container .groub{
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.container .groub .box{
+    background-color: #293750;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 3rem;
+    border-radius: 10px;
+}
+
+.container .groub .box img{
+    width: 50px;
+    height: 50px;
+}
+
+.container .groub .box .text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
